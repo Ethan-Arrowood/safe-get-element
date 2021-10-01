@@ -125,10 +125,10 @@ export const tagNames: (keyof HTMLElementTagNameMap)[] = [
   'dialog',
   'menu',
   'summary',
-   // Web Components
+  // Web Components
   'slot',
   'template',
-   // Obsolete and deprecated elements
+  // Obsolete and deprecated elements
   // 'acronym',
   // 'applet',
   // 'basefont',
@@ -137,14 +137,14 @@ export const tagNames: (keyof HTMLElementTagNameMap)[] = [
   // 'blink',
   // 'center',
   // 'content',
-  'dir',
-  'font',
-  'frame',
-  'frameset',
-  'hgroup',
+  // 'dir',
+  // 'font',
+  // 'frame',
+  // 'frameset',
+  // 'hgroup',
   // 'image',
   // 'keygen',
-  'marquee',
+  // 'marquee',
   // 'menuitem',
   // 'nobr',
   // 'noembed',

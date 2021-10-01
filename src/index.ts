@@ -16,7 +16,9 @@ export function safeGetElement <TagName extends TagNames>(id: string, assertType
     throw new Error(`Cannot find element with id: ${id}`)
   }
 
-  return assertType !== undefined && assertElement(element, assertType)
-    ? element as HTMLElementTagNameMap[TagName]
-    : element as HTMLElement
+  if (assertType !== undefined && assertElement(element, assertType)) {
+    return element as HTMLElementTagNameMap[TagName]
+  }
+
+  return element as HTMLElement
 }
