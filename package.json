@@ -2,12 +2,12 @@
   "name": "safe-get-element",
   "version": "0.0.1",
   "description": "Type safe document.getElementById",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "tsc",
     "test": "tap test/index.ts --ts"
   },
-  "keywords": [],
+  "keywords": ["TypeScript", "getElementById", "DOM"],
   "author": "Ethan Arrowood <ethan@arrowood.dev>",
   "license": "MIT",
   "files": [
