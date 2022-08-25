@@ -1,6 +1,6 @@
 {
   "name": "safe-get-element",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Type safe document.getElementById",
   "main": "lib/index.js",
   "scripts": {
